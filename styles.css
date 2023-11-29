@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+select {
+ width: 100%;
+ padding: 10px;
+ font-size: 14px;
+ border: 1px solid #ddd;
+}
+.container {
+  background: #eee;
+  width: 410px;
+  height: auto;
+  padding: 20px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.award {
+  background: #fff;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.award input {
+  display: none;
+}
+
+.award input:checked + .award-label + .award-content {
+  max-height: 2000px;
+}
+
+.award-label {
+  display: block;
+  padding: 10px 20px;
+  background: #ddd;
+  color: #000;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.award-label:after {
+  content: '+';
+  float: right;
+}
+
+.award input:checked + .award-label + .award-content {
+  max-height: 2000px;
+}
+
+.award-content {
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in;
+  display: block;
+}
+
+.points {
+  background: #e9e9e9;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+button {  outline: none;  border: none; border-radius: 15px;   }
+
+.callButton,
+.emailButton,
+.whatsappButton  {
+	text-align:center;
+
+.container {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed for spacing */
+}
+
+.callButton,
+.emailButton,
+.whatsappButton {
+    margin: 20px 0; /* Adjust as needed for spacing between buttons */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF; /* Adjust the background color as needed */
+    border: 1px solid #007BFF; /* Adjust the border color as needed */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Adjust the background color on hover */
+    border-color: #0056b3; /* Adjust the border color on hover */
+}	
